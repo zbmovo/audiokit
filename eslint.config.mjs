@@ -7,4 +7,7 @@ export default tseslint.config(
   ...tseslint.configs.recommended,
   ...tseslint.configs.stylistic,
   prettier,
+  {
+    ignores: ["**/dist/", "**/temp/"],
+  },
 )
