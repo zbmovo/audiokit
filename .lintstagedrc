@@ -1,0 +1,4 @@
+{
+  "*": ["prettier -w -u"],
+  "*.{ts,tsx,js,jsx}": ["eslint --fix"]
+}
